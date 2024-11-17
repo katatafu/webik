@@ -1,16 +1,16 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { Link } from 'react-router-dom';
-import Footer from './Footer'; // Import footeru
+import Footer from './Footer';
 
 const About = () => {
   const buttonRef1 = useRef();
   const buttonRef2 = useRef();
   const contentRef = useRef();
-  const textRef1 = useRef();  // Ref pro první textový sloupec
-  const textRef2 = useRef();  // Ref pro druhý textový sloupec
-  const headingRef1 = useRef(); // Ref pro první nadpis
-  const headingRef2 = useRef(); // Ref pro druhý nadpis
+  const textRef1 = useRef();
+  const textRef2 = useRef();
+  const headingRef1 = useRef();
+  const headingRef2 = useRef();
 
   useEffect(() => {
     // Animace pro tlačítka
@@ -72,7 +72,7 @@ const About = () => {
       scale: 1.2,
       duration: 0.3,
       ease: 'power2.out',
-      color: 'rgb(0, 255, 0)', // Zelená barva nadpisu při najetí myší
+      color: 'rgb(0, 255, 0)',
     });
   };
 
@@ -81,7 +81,7 @@ const About = () => {
       scale: 1,
       duration: 0.3,
       ease: 'power2.out',
-      color: '#E5E5E5', // Původní barva nadpisu
+      color: '#E5E5E5',
     });
   };
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { Link } from 'react-router-dom';
-import Footer from './Footer'; // Import footeru
+import Footer from './Footer';
 
 const Services = () => {
   const textRef = useRef();

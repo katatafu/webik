@@ -5,15 +5,15 @@ import { gsap } from 'gsap';
 const Header = () => {
   const styles = {
     header: {
-      position: 'sticky', // Zajišťuje, že header zůstane na vrcholu stránky při scrollování
-      top: 0, // Udržuje header na začátku stránky
-      backgroundColor: '#333', // Tmavě šedé pozadí pro header
+      position: 'sticky',
+      top: 0,
+      backgroundColor: '#333',
       padding: '20px 0',
       textAlign: 'center',
-      boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)', // Dolní stín pro lepší vzhled
-      zIndex: 1000, // Aby byl header vždy nad ostatním obsahem
-      width: '100%', // Zajišťuje, že header bude mít šířku 100%
-      boxSizing: 'border-box', // Zajistí, že padding nebude ovlivňovat šířku headeru
+      boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+      zIndex: 1000,
+      width: '100%',
+      boxSizing: 'border-box',
     },
     nav: {
       display: 'flex',
@@ -21,12 +21,12 @@ const Header = () => {
       alignItems: 'center',
       gap: '30px',
       width: '100%',
-      maxWidth: '1200px', // Zajišťuje, že obsah se nezvětší nad určitou šířku
-      margin: '0 auto', // Horizontálně centrování
+      maxWidth: '1200px',
+      margin: '0 auto',
     },
     link: {
       fontSize: '20px',
-      color: '#E5E5E5', // Světle šedá barva textu
+      color: '#E5E5E5',
       textDecoration: 'none',
       fontFamily: 'Poppins, sans-serif',
       fontWeight: '500',
@@ -37,7 +37,7 @@ const Header = () => {
   const handleLinkMouseEnter = (e) => {
     gsap.to(e.target, {
       scale: 1.1,
-      color: 'rgb(0, 255, 0)', // Zelená barva při hoveru
+      color: 'rgb(0, 255, 0)',
       duration: 0.3,
       ease: 'power2.out',
     });
@@ -46,7 +46,7 @@ const Header = () => {
   const handleLinkMouseLeave = (e) => {
     gsap.to(e.target, {
       scale: 1,
-      color: '#E5E5E5', // Světle šedá barva při opuštění
+      color: '#E5E5E5',
       duration: 0.3,
       ease: 'power2.out',
     });

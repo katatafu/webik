@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9; /* Světlejší šedá */
+    background-color: #f9f9f9;
     color: #333;
   }
   
@@ -14,6 +14,6 @@ body {
     transition: transform 0.1s ease-out;
   }
   .cursor:hover {
-    transform: scale(1.5); /* Zvýšení velikosti při hoveru */
+    transform: scale(1.5);
   }
   

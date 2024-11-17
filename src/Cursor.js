@@ -5,16 +5,16 @@ const Cursor = () => {
   const [cursorStyle, setCursorStyle] = useState({
     top: '0px',
     left: '0px',
-    transform: 'scale(1)', // Initial size of the cursor
+    transform: 'scale(1)',
   });
 
   useEffect(() => {
     // Handle mouse movement
     const handleMouseMove = (e) => {
       setCursorStyle({
-        top: `${e.clientY - 15}px`, // adjust position based on mouse movement
+        top: `${e.clientY - 15}px`,
         left: `${e.clientX - 15}px`,
-        transform: cursorStyle.transform, // maintain the scaling transform
+        transform: cursorStyle.transform,
       });
     };
 
@@ -29,7 +29,7 @@ const Cursor = () => {
   const handleMouseEnter = () => {
     setCursorStyle((prev) => ({
       ...prev,
-      transform: 'scale(1.5)', // Enlarge cursor
+      transform: 'scale(1.5)',
     }));
   };
 
@@ -37,7 +37,7 @@ const Cursor = () => {
   const handleMouseLeave = () => {
     setCursorStyle((prev) => ({
       ...prev,
-      transform: 'scale(1)', // Original size
+      transform: 'scale(1)',
     }));
   };
 
@@ -47,20 +47,20 @@ const Cursor = () => {
       position: 'absolute',
       top: cursorStyle.top,
       left: cursorStyle.left,
-      width: '30px', // Initial size of the cursor
+      width: '30px',
       height: '30px',
       borderRadius: '50%',
-      backgroundColor: 'rgb(0, 255, 0)', // Green color for the cursor
-      pointerEvents: 'none', // Ensure the cursor doesn't interfere with other elements
-      transition: 'transform 0.2s ease', // Smooth scale transition
+      backgroundColor: 'rgb(0, 255, 0)',
+      pointerEvents: 'none',
+      transition: 'transform 0.2s ease',
     },
   };
 
   return (
     <div
       style={styles.cursor}
-      onMouseEnter={handleMouseEnter} // Enlarge when mouse hovers
-      onMouseLeave={handleMouseLeave} // Shrink when mouse leaves
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     />
   );
 };

@@ -3,16 +3,16 @@ import React from 'react';
 const Footer = () => {
   const styles = {
     footer: {
-      position: 'fixed', // Udržuje footer vždy na spodní části obrazovky
+      position: 'fixed',
       bottom: 0,
       left: 0,
-      width: '100%', // Zajišťuje, že footer zabere celou šířku stránky
-      backgroundColor: '#222', // Tmavě šedé pozadí
-      color: '#fff', // Bílý text
+      width: '100%',
+      backgroundColor: '#222',
+      color: '#fff',
       padding: '20px 0',
       textAlign: 'center',
       fontFamily: 'Poppins, sans-serif',
-      zIndex: 1000, // Zajišťuje, že footer je nad obsahem
+      zIndex: 1000,
     },
     contact: {
       fontSize: '16px',

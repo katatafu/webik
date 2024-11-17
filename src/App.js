@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Header';
 import About from './About';
 import Services from './Services';
-import MainPage from './MainPage'; // nebo jak máš komponentu pro hlavní stránku
+import MainPage from './MainPage';
 import Footer from './Footer';
 
 function App() {
@@ -11,10 +11,10 @@ function App() {
     appContainer: {
       display: 'flex',
       flexDirection: 'column',
-      minHeight: '100vh', // Zajistí, že stránka bude mít minimální výšku 100% okna
+      minHeight: '100vh',
     },
     mainContent: {
-      flex: 1, // Umožní hlavnímu obsahu zabrat zbytek prostoru mezi headerem a footerem
+      flex: 1,
     },
   };
 

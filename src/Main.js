@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { Link } from 'react-router-dom';
-import Footer from './Footer'; // Import Footer komponenty
+import Footer from './Footer';
 
 const Main = () => {
   const textRef = useRef();
@@ -52,7 +52,7 @@ const Main = () => {
   const handleTextMouseEnter = () => {
     gsap.to(textRef.current, {
       scale: 1.2,
-      color: 'rgb(0, 255, 0)', // Zelená barva textu
+      color: 'rgb(0, 255, 0)',
       duration: 0.5,
       ease: 'power2.out',
     });
@@ -62,7 +62,7 @@ const Main = () => {
   const handleTextMouseLeave = () => {
     gsap.to(textRef.current, {
       scale: 1,
-      color: '#E5E5E5', // Světle šedá barva textu
+      color: '#E5E5E5',
       duration: 0.5,
       ease: 'power2.out',
     });
@@ -92,16 +92,16 @@ const Main = () => {
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      height: 'calc(100vh - 80px)', // Výška obsahující header
-      backgroundColor: '#333', // Černé pozadí
+      height: 'calc(100vh - 80px)',
+      backgroundColor: '#333',
       paddingTop: '0px',
       textAlign: 'center',
-      marginBottom: '80px', // Zajistí, že footer nebude překrývat obsah
+      marginBottom: '80px',
     },
     text: {
       fontSize: '96px',
       fontWeight: 'bold',
-      color: '#E5E5E5', // Světle šedá barva textu
+      color: '#E5E5E5',
       textAlign: 'center',
       marginBottom: '20px',
       fontFamily: 'Poppins, sans-serif',
@@ -117,7 +117,7 @@ const Main = () => {
       padding: '12px 30px',
       fontSize: '18px',
       color: '#fff',
-      backgroundColor: 'rgb(0, 255, 0)', // Zelená barva pozadí tlačítek
+      backgroundColor: 'rgb(0, 255, 0)',
       border: 'none',
       borderRadius: '5px',
       textDecoration: 'none',
@@ -136,7 +136,7 @@ const Main = () => {
     textContent: {
       width: '100%',
       fontSize: '18px',
-      color: '#E5E5E5', // Světle šedý text
+      color: '#E5E5E5',
       fontFamily: 'Poppins, sans-serif',
       lineHeight: '1.6',
     },

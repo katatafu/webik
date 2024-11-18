@@ -37,7 +37,7 @@ const Header = () => {
   const handleLinkMouseEnter = (e) => {
     gsap.to(e.target, {
       scale: 1.1,
-      color: 'rgb(0, 255, 0)',
+      color: 'rgb(242, 242, 242)',
       duration: 0.3,
       ease: 'power2.out',
     });

@@ -52,7 +52,7 @@ const Main = () => {
   const handleTextMouseEnter = () => {
     gsap.to(textRef.current, {
       scale: 1.2,
-      color: 'rgb(0, 255, 0)',
+      color: 'rgb(128, 128, 128)',
       duration: 0.5,
       ease: 'power2.out',
     });
@@ -117,7 +117,7 @@ const Main = () => {
       padding: '12px 30px',
       fontSize: '18px',
       color: '#fff',
-      backgroundColor: 'rgb(0, 255, 0)',
+      backgroundColor: 'rgb(128, 128, 128)',
       border: 'none',
       borderRadius: '5px',
       textDecoration: 'none',

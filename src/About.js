@@ -72,7 +72,7 @@ const About = () => {
       scale: 1.2,
       duration: 0.3,
       ease: 'power2.out',
-      color: 'rgb(0, 255, 0)',
+      color: 'rgb(128, 128, 128)',
     });
   };
 
@@ -105,7 +105,7 @@ const About = () => {
       padding: '12px 30px',
       fontSize: '18px',
       color: '#fff',
-      backgroundColor: 'rgb(0, 255, 0)', // Zelená barva pozadí tlačítek
+      backgroundColor: 'rgb(128, 128, 128)',
       border: 'none',
       borderRadius: '5px',
       textDecoration: 'none',

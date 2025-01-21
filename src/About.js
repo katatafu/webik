@@ -147,12 +147,10 @@ const About = () => {
             onMouseEnter={() => handleHeadingMouseEnter(headingRef1)}
             onMouseLeave={() => handleHeadingMouseLeave(headingRef1)}
           >
-            O mně
+            text
           </h3>
           <p>
-          Jmenuji se Petr Vaculík a jsem nadšenec do technologií a digitálního světa. Mám 34 let zkušeností v oblasti webového vývoje a grafického designu.
-Miluji kreativitu, jednoduchost a efektivitu, což promítám do každého projektu. Mojí prioritou je klientská spokojenost a doručování výsledků, které skutečně fungují.
-Společně můžeme vytvořit něco mimořádného!
+            text
           </p>
         </div>
 
@@ -163,10 +161,10 @@ Společně můžeme vytvořit něco mimořádného!
             onMouseEnter={() => handleHeadingMouseEnter(headingRef2)}
             onMouseLeave={() => handleHeadingMouseLeave(headingRef2)}
           >
-            Život
+            text
           </h3>
           <p style={styles.loremText}>
-          Ve volném čase rád experimentuji s novými technologiemi, cestuji a hledám inspiraci pro své projekty. Můj cíl je nejen vytvářet funkční aplikace, ale také přinášet klientům skutečnou hodnotu prostřednictvím kvalitních digitálních řešení.
+          text
           </p>
         </div>
       </div>

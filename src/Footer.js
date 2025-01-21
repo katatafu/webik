@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <footer style={styles.footer}>
       <div style={styles.contact}>Telefon: +420 123 456 789</div>
-      <div style={styles.contact}>Email: webik@gmail.com.cz</div>
+      <div style={styles.contact}>Email: liskova.aja@gmail.com</div>
     </footer>
   );
 };

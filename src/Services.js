@@ -154,8 +154,8 @@ const Services = () => {
 
       <div style={styles.serviceList}>
         {[
-          { title: 'Webový vývoj', text: 'Vytváříme přehledné a funkční webové stránky na míru s moderními technologiemi. Naše weby jsou responzivní, optimalizované a bezpečné.' },
-          { title: 'E-commerce řešení', text: 'Nabízíme komplexní e-commerce platformy, které usnadňují prodej produktů online. Zajistíme snadné nákupy a správu obchodů.' },
+          { title: 'text', text: 'text' },
+          { title: 'text', text: 'text' },
         ].map((service, index) => (
           <div
             key={index}

@@ -176,10 +176,9 @@ const Main = () => {
 
       <div ref={contentRef} style={styles.content}>
         <div style={styles.textContent}>
-          <h3>Vítejte na naší webové stránce!</h3>
+          <h3>Vítejte na mojí webové stránce!</h3>
           <p>
-          
-          Jsme specialisté na moderní technologie a inovativní řešení, která vám pomohou uspět ve světě digitálního podnikání. Prohlédněte si naše služby a zjistěte, jak vám můžeme pomoci vytvořit výjimečný online zážitek. S námi je budoucnost na dosah!
+           text
           </p>
         </div>
       </div>
